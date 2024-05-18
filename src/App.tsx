@@ -1,9 +1,17 @@
 import React from 'react';
-import Container from './components/container/container';
+import Container from './components/section';
+import Button from './components/button';
 
 function App(): JSX.Element {
   return (
-    <Container></Container>
+    <Container>
+      <Button
+        name="foo"
+        type="button"
+      >
+        Cadastrar
+      </Button>
+    </Container>
   );
 }
 

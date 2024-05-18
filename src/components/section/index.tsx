@@ -1,18 +1,16 @@
-interface ContainerProps {
+interface SectionProps {
     children?: React.ReactNode,
     style?: React.CSSProperties,
 }
 
-function Container(props: ContainerProps): JSX.Element {
+function Section(props: SectionProps) {
     let { children, style } = props;
 
     return (
         <section style={style}>
-            <div>
-                {children}
-            </div>
+            {children}
         </section>
     );
 }
 
-export default Container;
+export default Section;
