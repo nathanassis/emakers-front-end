@@ -1,17 +1,8 @@
-import React from 'react';
-import Container from './components/section';
-import Button from './components/button';
+import AppRoutes from "./routes";
 
 function App(): JSX.Element {
   return (
-    <Container>
-      <Button
-        name="foo"
-        type="button"
-      >
-        Cadastrar
-      </Button>
-    </Container>
+    <AppRoutes />
   );
 }
 
