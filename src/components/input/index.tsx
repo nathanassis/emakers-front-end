@@ -1,7 +1,7 @@
 import './index.css';
 
 interface InputProps {
-    type: string | "text",
+    type: string,
     name: string,
     placeholder?: string,
     is_required?: boolean | false,

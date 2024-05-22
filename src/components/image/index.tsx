@@ -10,7 +10,7 @@ function Image(props: ImageProps) {
     let { src, alt, height, width, style } = props;
 
     if (!src) {
-        return;
+        return null;
     }
 
     return (
