@@ -1,3 +1,5 @@
+import "./index.css";
+
 interface SectionProps {
     children?: React.ReactNode,
     style?: React.CSSProperties,
@@ -8,7 +10,9 @@ function Section(props: SectionProps) {
 
     return (
         <section style={style}>
-            {children}
+            <div>
+                {children}
+            </div>
         </section>
     );
 }

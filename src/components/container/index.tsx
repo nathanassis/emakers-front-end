@@ -1,3 +1,5 @@
+import "./index.css";
+
 interface ContainerProps {
     id?: string,
     children?: React.ReactNode,
