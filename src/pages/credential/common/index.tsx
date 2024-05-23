@@ -15,7 +15,7 @@ function CredentialBackground(props: CredentialBackgroundProps) {
                 {children}
             </Container>
             <Container id="credential-image">
-                <Image src="/images/credential.png" />
+                <Image src="/images/credential.png" style={{ position: "fixed", top: "0" }} />
             </Container>
         </Section>
     );

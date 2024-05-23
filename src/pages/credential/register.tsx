@@ -6,10 +6,10 @@ import React from "react";
 import "./credential.css";
 
 
-function Registrar() {
+function Register() {
     return (
         <CredentialBackground>
-            <Container>
+            <Container style={{ flexDirection: "column" }}>
                 <h1>Registrar</h1>
                 <form>
                     <Input
@@ -43,10 +43,12 @@ function Registrar() {
                 </form>
             </Container>
             <Container id="credential-nav">
-                <a href="/login">Fazer Login</a>
+                <Container style={{ flexDirection: "column", width: "400px" }}>
+                    <a href="/login">Fazer Login</a>
+                </Container>
             </Container>
         </CredentialBackground>
     );
 }
 
-export default Registrar;
+export default Register;

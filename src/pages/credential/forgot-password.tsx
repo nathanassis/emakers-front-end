@@ -9,7 +9,7 @@ import "./credential.css";
 function ForgotPassword() {
     return (
         <CredentialBackground>
-            <Container>
+            <Container style={{ flexDirection: "column" }}>
                 <h1>Recuperar Conta</h1>
                 <form>
                     <Input
@@ -23,8 +23,10 @@ function ForgotPassword() {
                 </form>
             </Container>
             <Container id="credential-nav">
-                <a href="/register">Criar Conta</a>
-                <a href="/login">Fazer Login</a>
+                <Container style={{ flexDirection: "column", width: "400px" }}>
+                    <a href="/register">Criar Conta</a>
+                    <a href="/login">Fazer Login</a>
+                </Container>
             </Container>
         </CredentialBackground>
     );
