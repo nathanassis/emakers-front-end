@@ -1,6 +1,7 @@
 import Button from "../../components/button";
 import Container from "../../components/container";
 import CredentialBackground from "./common";
+import Form from "../../components/form";
 import Input from "../../components/input";
 import React from "react";
 import "./credential.css";
@@ -11,7 +12,7 @@ function Register() {
         <CredentialBackground>
             <Container style={{ flexDirection: "column" }}>
                 <h1>Registrar</h1>
-                <form>
+                <Form>
                     <Input
                         type="text"
                         name="user"
@@ -40,7 +41,7 @@ function Register() {
                     <Button name="btn-submit" type="submit">
                         {"->"}
                     </Button>
-                </form>
+                </Form>
             </Container>
             <Container id="credential-nav">
                 <Container style={{ flexDirection: "column", width: "400px" }}>

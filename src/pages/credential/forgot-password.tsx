@@ -1,6 +1,7 @@
 import Button from "../../components/button";
 import Container from "../../components/container";
 import CredentialBackground from "./common";
+import Form from "../../components/form";
 import Input from "../../components/input";
 import React from "react";
 import "./credential.css";
@@ -11,7 +12,7 @@ function ForgotPassword() {
         <CredentialBackground>
             <Container style={{ flexDirection: "column" }}>
                 <h1>Recuperar Conta</h1>
-                <form>
+                <Form>
                     <Input
                         type="email"
                         name="email"
@@ -20,7 +21,7 @@ function ForgotPassword() {
                     <Button name="btn-submit" type="submit">
                         {"->"}
                     </Button>
-                </form>
+                </Form>
             </Container>
             <Container id="credential-nav">
                 <Container style={{ flexDirection: "column", width: "400px" }}>
