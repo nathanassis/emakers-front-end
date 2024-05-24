@@ -1,16 +1,17 @@
 import "./index.css";
 
 interface ContainerProps {
+    classes?: string,
     id?: string,
     children?: React.ReactNode,
     style?: React.CSSProperties,
 }
 
 function Container(props: ContainerProps) {
-    let { id, children, style } = props;
+    let { classes, id, children, style } = props;
 
     return (
-        <div id={id} style={style}>
+        <div id={id} style={style} className={classes}>
             {children}
         </div>
     );

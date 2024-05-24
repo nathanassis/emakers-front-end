@@ -23,7 +23,7 @@ function ForgotPassword() {
                     </Button>
                 </Form>
             </Container>
-            <Container id="credential-nav">
+            <Container classes="credential-nav">
                 <Container style={{ flexDirection: "column", width: "400px" }}>
                     <a href="/register">Criar Conta</a>
                     <a href="/login">Fazer Login</a>

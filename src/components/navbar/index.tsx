@@ -6,17 +6,17 @@ import "./index.css";
 function Navbar() {
     return (
         <nav>
-            <div>
+            <div className="nav-container">
                 <Image src="/images/avatar.png" style={{ margin: "0 auto" }} />
-                <a>Lançamentos</a>
+                <a className="nav-link">Lançamentos</a>
                 <hr className="vl"></hr>
-                <a>Populares</a>
+                <a className="nav-link">Populares</a>
                 <hr className="vl"></hr>
-                <a>Gêneros</a>
+                <a className="nav-link">Gêneros</a>
                 <hr className="vl"></hr>
-                <a>Promoções</a>
+                <a className="nav-link">Promoções</a>
                 <hr className="vl"></hr>
-                <a>Conta</a>
+                <a className="nav-link">Conta</a>
                 <Form>
                     <Input
                         name="search"

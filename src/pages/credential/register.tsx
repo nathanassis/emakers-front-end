@@ -43,7 +43,7 @@ function Register() {
                     </Button>
                 </Form>
             </Container>
-            <Container id="credential-nav">
+            <Container classes="credential-nav">
                 <Container style={{ flexDirection: "column", width: "400px" }}>
                     <a href="/login">Fazer Login</a>
                 </Container>
