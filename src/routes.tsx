@@ -3,6 +3,7 @@ import ForgotPassword from "./pages/credential/forgot-password";
 import Login from "./pages/credential/login";
 import Register from "./pages/credential/register";
 import React from "react";
+import User from "./pages/user";
 
 function AppRoutes() {
     return (
@@ -11,6 +12,7 @@ function AppRoutes() {
                 <Route path="/login" element={<Login />}></Route>
                 <Route path="/register" element={<Register />}></Route>
                 <Route path="/forgot_password" element={<ForgotPassword />}></Route>
+                <Route path="/user" element={<User />}></Route>
             </Routes>
         </BrowserRouter>
     );

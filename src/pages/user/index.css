@@ -1,0 +1,57 @@
+.container-user,
+.container-games,
+.container-info,
+.container-games-item {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-user-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    width: 70%;
+}
+
+.container-user-text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #4B626C;
+    margin: 15px 0 15px 0;
+}
+
+.container-info {
+    width: 70%;
+}
+
+.container-user {
+    width: 60%;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.container-games {
+    background-color: #4B626C;
+    width: 40%;
+    color: #FBF6F0;
+}
+
+.container-games-item {
+    max-width: 190px;
+    text-align: center;
+}
+
+.container-games-title {
+    margin-left: 33px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.container-games-grade {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 5px;
+}
