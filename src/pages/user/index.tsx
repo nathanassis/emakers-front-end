@@ -16,7 +16,7 @@ function User() {
                         <p className="container-user-text">Seu CPF é 123.456.789-00</p>
                         <a href="#">Alterar Dados</a>
                         <a href="#">Excluir Conta</a>
-                        <a href="#">Tela do admin</a>
+                        <a href="/admin">Tela do admin</a>
                     </Container>
                 </Container>
                 <Container classes="container-games">

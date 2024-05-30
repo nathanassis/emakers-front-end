@@ -16,7 +16,7 @@ function Navbar() {
                 <hr className="vl"></hr>
                 <a className="nav-link">Promoções</a>
                 <hr className="vl"></hr>
-                <a className="nav-link">Conta</a>
+                <a className="nav-link" href="/user">Conta</a>
                 <Form>
                     <Input
                         name="search"
