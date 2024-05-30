@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Admin from "./pages/admin";
 import ForgotPassword from "./pages/credential/forgot-password";
+import Game from "./pages/game";
 import Login from "./pages/credential/login";
 import Register from "./pages/credential/register";
 import React from "react";
@@ -15,6 +16,7 @@ function AppRoutes() {
                 <Route path="/forgot_password" element={<ForgotPassword />}></Route>
                 <Route path="/user" element={<User />}></Route>
                 <Route path="/admin" element={<Admin />}></Route>
+                <Route path="/game" element={<Game />}></Route>
             </Routes>
         </BrowserRouter>
     );

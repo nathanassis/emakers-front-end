@@ -1,0 +1,37 @@
+.container-game {
+    height: 530px;
+    width: 90%;
+    margin: auto;
+}
+
+.container-game-info {
+    flex-direction: column;
+    min-width: 400px;
+    text-align: center;
+}
+
+.invert-color>p,
+.invert-color>a {
+    color: #FBF6F0;
+}
+
+.container-game-info>h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.container-game-info>p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 15px 35px;
+}
+
+.container-game-info>a {
+    text-align: center;
+}
