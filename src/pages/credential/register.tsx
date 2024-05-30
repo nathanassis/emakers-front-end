@@ -10,7 +10,7 @@ import "./credential.css";
 function Register() {
     return (
         <CredentialBackground>
-            <Container style={{ flexDirection: "column" }}>
+            <Container classes="container-credential" style={{ flexDirection: "column" }}>
                 <h1>Registrar</h1>
                 <Form>
                     <Input

@@ -10,7 +10,7 @@ import "./credential.css";
 function Login() {
     return (
         <CredentialBackground>
-            <Container style={{ flexDirection: "column" }}>
+            <Container classes="container-credential" style={{ flexDirection: "column" }}>
                 <h1>Login</h1>
                 <Form>
                     <Input

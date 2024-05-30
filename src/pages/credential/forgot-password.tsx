@@ -10,7 +10,7 @@ import "./credential.css";
 function ForgotPassword() {
     return (
         <CredentialBackground>
-            <Container style={{ flexDirection: "column" }}>
+            <Container classes="container-credential" style={{ flexDirection: "column" }}>
                 <h1>Recuperar Conta</h1>
                 <Form>
                     <Input
