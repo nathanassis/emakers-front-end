@@ -6,10 +6,11 @@ interface InputProps {
     placeholder?: string,
     is_required?: boolean | false,
     style?: React.CSSProperties,
+    classes?: string,
 }
 
 function Input(props: InputProps) {
-    let { type, name, placeholder, is_required, style } = props;
+    let { classes, type, name, placeholder, is_required, style } = props;
 
     return (
         <input
@@ -18,6 +19,7 @@ function Input(props: InputProps) {
             placeholder={placeholder}
             required={is_required}
             style={style}
+            className={classes}
         />
     );
 }

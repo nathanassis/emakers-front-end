@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Admin from "./pages/admin";
+import Cart from "./pages/cart";
 import ForgotPassword from "./pages/credential/forgot-password";
 import Game from "./pages/game";
 import Login from "./pages/credential/login";
@@ -17,6 +18,7 @@ function AppRoutes() {
                 <Route path="/user" element={<User />}></Route>
                 <Route path="/admin" element={<Admin />}></Route>
                 <Route path="/game" element={<Game />}></Route>
+                <Route path="/cart" element={<Cart />}></Route>
             </Routes>
         </BrowserRouter>
     );
