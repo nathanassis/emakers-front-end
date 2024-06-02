@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
 import Admin from "./pages/admin";
 import Cart from "./pages/cart";
 import ForgotPassword from "./pages/credential/forgot-password";
@@ -12,6 +12,7 @@ function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/" element={<Navigate to="/login" />} />
                 <Route path="/login" element={<Login />}></Route>
                 <Route path="/register" element={<Register />}></Route>
                 <Route path="/forgot_password" element={<ForgotPassword />}></Route>
