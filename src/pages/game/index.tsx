@@ -1,4 +1,6 @@
 import Container from "../../components/container";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Image from "../../components/image";
 import Navbar from "../../components/navbar";
 import Section from "../../components/section";
@@ -25,9 +27,15 @@ function Game() {
                             sobreviver... e ensinar
                             seu filho a fazer o mesmo.
                         </p>
-                        <hr style={{ margin: "20px 35px" }}></hr>
-                        <a>Adicionar ao Carrinho</a>
-                        <a>Solicitar Reembolso</a>
+                        <hr style={{ margin: "20px 0", width: "85%" }}></hr>
+                        <a href="#" className="game-link">
+                            Adicionar ao Carrinho
+                            <FontAwesomeIcon icon={faCartShopping} />
+                        </a>
+                        <a href="#" className="game-link">
+                            Solicitar Reembolso
+                            <FontAwesomeIcon icon={faCartShopping} />
+                        </a>
                     </Container>
                 </Container>
             </Section>
