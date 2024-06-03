@@ -13,12 +13,38 @@
     width: 70%;
 }
 
+.user-link {
+    width: 270px;
+    height: 45px;
+    background-color: #4B626C;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FBF6F0;
+}
+
+.user-icon {
+    margin-left: 30px;
+}
+
+.admin-link {
+    width: 270px;
+    height: 45px;
+    background-color: #b8b8b8;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.user-link,.admin-link{
+    margin: 15px 0;
+}
+
 .container-user-text {
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-    color: #4B626C;
-    margin: 15px 0 15px 0;
+    margin: 15px 0;
 }
 
 .container-info {
@@ -29,6 +55,7 @@
     width: 60%;
     align-items: center;
     white-space: nowrap;
+    color:#4B626C;
 }
 
 .container-games {
