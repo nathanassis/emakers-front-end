@@ -1,6 +1,7 @@
-import Button from "../../components/button";
 import Container from "../../components/container";
 import CredentialBackground from "./common";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Form from "../../components/form";
 import Input from "../../components/input";
 import React from "react";
@@ -38,14 +39,14 @@ function Register() {
                         name="password-confirm"
                         placeholder="Confirmar Senha"
                     />
-                    <Button name="btn-submit" type="submit">
-                        {"->"}
-                    </Button>
+                    <a className="credential-btn" href="/user">
+                        <FontAwesomeIcon icon={faArrowRight} />
+                    </a>
                 </Form>
             </Container>
             <Container classes="credential-nav">
                 <Container style={{ flexDirection: "column", width: "400px" }}>
-                    <a href="/login">Fazer Login</a>
+                    <a className="credential-link" href="/login">Fazer Login</a>
                 </Container>
             </Container>
         </CredentialBackground>
